@@ -1,7 +1,7 @@
 # Coding-Samurai-Project
 Made Projects in Java during these Internship with Coding Samurai 
 
-1.TO Do LIST APPLICATION
+1.TO DO LIST APPLICATION
 
 2.CALCULATOR APPLICATION
 
