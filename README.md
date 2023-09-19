@@ -1,5 +1,5 @@
 # Coding-Samurai-Project
-Made Projects in Java during these Internship with Coding Samurai 
+Made Projects in Java during this Internship with Coding Samurai 
 
 1.TO DO LIST APPLICATION
 
