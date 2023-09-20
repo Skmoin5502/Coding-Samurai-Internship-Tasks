@@ -32,7 +32,10 @@ System.out.println("");
         int marks1,marks2,marks3;
         grade g=new grade();
           System.out.println("");
+          System.out.println("***************************");
         System.out.println("Enter Java subject Marks");
+         System.out.println("***************************");
+           System.out.println("");
         System.out.println("Enter Student Marks For Assignment OUT OF 30");
         marks1 = sc.nextInt();
         if (marks1>30){
@@ -65,7 +68,10 @@ System.out.println("");
         int marks1,marks2,marks3;
         grade g=new grade();
         System.out.println("");
+         System.out.println("***************************");
         System.out.println("Enter C subject Marks");
+         System.out.println("***************************");
+          System.out.println("");
         System.out.println("Enter Student Marks For Assignment OUT OF 30");
         marks1 = sc.nextInt();
         if (marks1>30){
@@ -97,7 +103,10 @@ System.out.println("");
         int marks1,marks2,marks3;
         grade g=new grade();
         System.out.println("");
+          System.out.println("***************************");
         System.out.println("Enter Python subject Marks");
+         System.out.println("***************************");
+          System.out.println("");
         System.out.println("Enter Student Marks For Assignment OUT OF 30");
         marks1 = sc.nextInt();
         if (marks1>30){
@@ -128,7 +137,10 @@ System.out.println("");
         int marks1,marks2,marks3;
         grade g=new grade();
         System.out.println("");
-        System.out.println("Enter SQl subject Marks");
+          System.out.println("***************************");
+        System.out.println("Enter SQL subject Marks");
+         System.out.println("***************************");
+          System.out.println("");
         System.out.println("Enter Student Marks For Assignment OUT OF 30");
         marks1 = sc.nextInt();
         if (marks1>30){
@@ -160,7 +172,10 @@ System.out.println("");
         int marks1,marks2,marks3;
         grade g=new grade();
         System.out.println("");
+       System.out.println("***************************");
         System.out.println("Enter JavaScript subject Marks");
+         System.out.println("***************************");
+          System.out.println("");
         System.out.println("Enter Student Marks For Assignment OUT OF 30");
         marks1 = sc.nextInt();
         if (marks1>30){
@@ -193,42 +208,56 @@ System.out.println("");
     {
         mtotal=total1+total2+total3+total4+total5;
         System.out.println("");
+            System.out.println("*****************************************");
         System.out.println("Overall subjects total is "+mtotal+" Out of 500");
+            System.out.println("*****************************************");
     }
     void Percentage()//Percentage function
     {
         per=mtotal/5;
         System.out.println("");
-        System.out.println("Percentage is "+per);
+           System.out.println("***************************");
+        System.out.println("Your Percentage is "+per);
+         System.out.println("***************************");
         System.out.println("");
     }
     void Grade()//Grade function
     {
 
         if (per>=80 )
-        {
+        { 
+            System.out.println("*********************************");
             System.out.println("Excellent!You Passed with A Grade");
+            System.out.println("*********************************");
             return;
         }
         if (per>=65)
         {
+            System.out.println("*********************************");
             System.out.println("Great!You Passed with B Grade");
+            System.out.println("*********************************");
             return;
         }
 
         if (per>=50)
         {
-            System.out.println("Good!You Passed with C Grade");
+            System.out.println("*********************************");
+            System.out.println("Good!You Passed with C Grade ");
+            System.out.println("*********************************");
             return;
         }
 
         else  if (per>=35) {
-            System.out.println("Nice!You Passed with D Grade ");
+           System.out.println("*********************************");
+            System.out.println("Nice!You Passed with D Grade  ");
+            System.out.println("*********************************");
             return;
         }
         else if (per<35)
         {
-            System.out.println("You are just Failed Your Grade is F") ;
+            System.out.println("*********************************");
+            System.out.println("You are Failed Your Grade is F  ");
+            System.out.println("*********************************");
             return;
         }
     }
