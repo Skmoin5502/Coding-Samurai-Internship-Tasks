@@ -14,7 +14,10 @@ class Calci //class keyword with class name
 
         result = val1 + val2;//initializing the result with the operation
 
-        System.out.println("The addition is " + result);
+       
+        System.out.println("\n****************************\n");
+        System.out.println( "  The Addition is  "+result);
+        System.out.println("\n****************************\n");;
 
     }
     void subtraction()//subtraction function
@@ -25,7 +28,10 @@ class Calci //class keyword with class name
 
         result = val1 - val2;
 
-        System.out.println("The subtraction is " + result);
+       
+        System.out.println("\n***************************\n");
+        System.out.println( "  The Subtraction is  "+result);
+        System.out.println("\n***************************\n");;
     }
     void multiplication()//multiplication function
     {
@@ -35,7 +41,9 @@ class Calci //class keyword with class name
 
         result = val1 * val2;
 
-        System.out.println("The multiplication is " + result);
+        System.out.println("\n****************************\n");
+        System.out.println( "  The Multiplication is  "+result);
+        System.out.println("\n****************************\n");;
     }
     void division()//division function
     {
@@ -59,7 +67,9 @@ class Calci //class keyword with class name
         } 
         else  {
              result = val1 / val2;
-              System.out.println("The division is " + result);
+               System.out.println("\n***********************\n");
+        System.out.println( "  The Division is  "+result);
+        System.out.println("\n***********************\n");;
         }
     
     }
@@ -72,14 +82,23 @@ class Calci //class keyword with class name
         end = obj.next().charAt(0);//taking input with characters
 
         if (end == 'y' || end == 'Y') {
+              System.out.println(" ");
+            System.out.println("******************************");
+            System.out.println("Program Continued Successfully");
+            System.out.println("******************************");
             c1.main1();
         }else if (end == 'n' || end == 'N') {
                System.out.println(" ");
-            System.out.println("Program Exited Succesfully");
+           System.out.println("******************************");
+            System.out.println("Program Exited Successfully");
+            System.out.println("******************************");
             System.exit(0);// I have use exit function to terminate the program
         }
         else{
-            System.out.println("Invalid Input Enter again");
+
+              System.out.println("******************************");
+            System.out.println("Invalid Input Try Again!!!");
+            System.out.println("******************************");
              System.out.println(" ");
             c1.Exit69();
         }
@@ -110,7 +129,8 @@ System.out.print("\n");
 System.out.print("PROJECT BY : SK Moinuddin Zahiruddin\n");
    System.out.println(" ");
 
-            System.out.println("Please Enter a Choice between 1 to 4 for Artihmetic Operations  ");
+            System.out.println("Please Enter a Choice between 1 to 4 for Artihmetic Operations  ");//Menu For Users Input
+               System.out.println(" ");
             System.out.println("  1 For Addition                                             ");
             System.out.println("  2 For Subtraction                                            ");
             System.out.println("  3 For Multiplication                                         ");
@@ -145,8 +165,10 @@ System.out.print("PROJECT BY : SK Moinuddin Zahiruddin\n");
 
                     default:
                      // System.out.println("\u001B[H\u001B[2J");
-                    System.out.println("Enter between 1 to 5 only ");
-                    System.out.println(" ");
+                   System.out.println("******************************");
+                   System.out.println("Enter between 1 to 5 Only");
+                   System.out.println("******************************");
+                     System.out.println(" ");
             
                 }
                     }
