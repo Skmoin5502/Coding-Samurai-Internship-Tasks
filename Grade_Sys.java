@@ -261,8 +261,43 @@ System.out.println("");
             return;
         }
     }
+           // Exit Function to Terminate the Program
+    void exit1(){
+        grade c1 = new grade();
+        char last;
 
- public static void main (String args[])//main function
+        System.out.println("Do you wish to Enter again Students Marks");
+        System.out.println("For continue press y or Y");
+        System.out.println("For continue press n or N");
+        last = sc.next().charAt(0);
+        System.out.println("---------------------------");
+
+        if (last == 'y' || last == 'Y') {
+             System.out.println("");
+            System.out.println("*********************************");
+            System.out.println("Program Restarted Successfully  ");
+            System.out.println("*********************************");
+
+            c1.main1();
+        }else if (last == 'n' || last == 'N') {
+
+            System.out.println("*********************************");
+            System.out.println("Program Exited Successfully  ");
+            System.out.println("*********************************");
+            System.exit(0);// I have use exit to terminate the program
+
+        }
+        else{
+         
+            System.out.println("*********************************");
+            System.out.println("Invalid input enter again  ");
+            System.out.println("*********************************");
+            c1.exit1();
+        }
+    }
+
+
+  void main1 ()//another function to get main
  {
     grade obj = new grade();
     // System.out.println("Enter your subjects marks");
@@ -275,5 +310,13 @@ System.out.println("");
      obj.Total();
      obj.Percentage();
      obj.Grade();
+     obj.exit1();
 
-}}
+}
+public static void main(String args[])
+{
+ grade obj1 = new grade();
+ obj1.main1();
+
+}
+}
